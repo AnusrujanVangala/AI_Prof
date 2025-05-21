@@ -5,8 +5,8 @@ from langchain.chains import LLMChain
 from tavily import TavilyClient
 
 # --- Hardcoded API Keys ---
-GROQ_API_KEY = "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"
-TAVILY_API_KEY = "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"
+GROQ_API_KEY = ""
+TAVILY_API_KEY = ""
 
 # --- Load Groq LLM ---
 def load_llm(groq_api_key):
